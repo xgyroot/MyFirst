@@ -16,14 +16,14 @@ public class UserModel {
 
     private String thirdPartyId;
 
-    private String password;
+    private String encrptPassword;
 
-    public String getPassword() {
-        return password;
+    public String getEncrptPassword() {
+        return encrptPassword;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setEncrptPassword(String encrptPassword) {
+        this.encrptPassword = encrptPassword;
     }
 
     public Integer getId() {
@@ -46,7 +46,7 @@ public class UserModel {
         return gener;
     }
 
-    public void setGener(Byte gener) {
+    public void setGener(Integer gener) {
         this.gener = gener;
     }
 
